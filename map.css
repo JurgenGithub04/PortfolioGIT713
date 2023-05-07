@@ -1,0 +1,120 @@
+    /* Set background color and font family */
+    body {
+        background-color: #8ba789;
+        font-family: 'Open Sans', sans-serif;
+      }
+      
+      /* Style header */
+      header {
+        background-color: #558b2f;
+        background-image: url('https://images.pexels.com/photos/2859169/pexels-photo-2859169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: rgba(49, 158, 45, 0.63);
+        text-align: center;
+        padding: 20px;
+      }
+      
+      /* Style main sections */
+      main {
+        width: 95.5%;
+        margin: 0 ;
+        padding: 20px;
+      }
+      
+      section {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+        width: 100%;
+      }
+      
+      
+      /* Style headings */
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        background-color: #3e8e41;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+      }
+      
+      h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        background-color: #3e8e41;
+        color: #fff;
+        padding: 10px;
+        border-radius: 5px;
+        display:flex;
+        text-align: center;
+      }
+      
+      /* Style paragraphs */
+      p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        background-color: #d0f0c0;
+        padding: 10px;
+        border-radius: 5px;
+      }
+      
+      /* Add hover effects */
+      h1:hover,
+      h2:hover {
+        background-color: #61cc14;
+        transition: background-color 0.3s ease;
+      }
+      
+      /* Style button */
+      #previous-page-btn {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      #previous-page-btn:hover {
+        background-color: #3e8e41;
+      }
+      
+      section video {
+        width: 60%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 20px;
+        display: block;
+        margin: 0 auto;
+      }
+  
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  img {
+    float: right;
+    border-color: #3b5323;
+    border-width: 4px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  

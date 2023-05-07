@@ -1,0 +1,156 @@
+     /* Style button */
+#previous-page-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+      
+#previous-page-btn:hover {
+    background-color: #3e8e41;
+}
+
+/* Body styles */
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f6f6f6; 
+}
+
+/* Header styles */
+header {
+background-color: #2e4c6e;
+color: #ffffff;
+padding: 20px;
+text-align: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 36px;
+letter-spacing: 2px;
+text-shadow: 1px 1px 1px #333;
+}
+
+/* Section styles */
+section {
+padding: 30px;
+margin: 20px 0;
+background-color: #ffffff;
+border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section:hover {
+transform: translateY(-5px);
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+section h2 {
+font-size: 28px;
+margin-bottom: 20px;
+color: #2360b1; 
+text-align: center;
+text-shadow: 1px 1px 1px #333;
+}
+
+section p {
+font-size: 18px;
+line-height: 1.5;
+color: #333333; /* dark gray */
+}
+
+#arcimg {
+float: right;
+object-fit: cover;
+width: 15%;
+height: auto;
+border-radius: 50%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+border: 5px solid #ffffff; /* white */
+margin-top: 20px;
+transition: transform 0.2s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+#arcimg:hover {
+transform: scale(1.05);
+border-color: #2360b1; /* orange */
+}
+
+#dbm {
+float: left;
+object-fit: cover;
+width: 12%;
+height: auto;
+border-radius: 50%;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+border: 5px solid #ffffff; /* white */
+margin-top: 20px;
+transition: transform 0.2s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+#dbm:hover {
+transform: scale(1.05);
+border-color: #2360b1; /* orange */
+}
+
+#geojson {
+    float: left;
+    object-fit: fill;
+    width: 12%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border: 5px solid #ffffff; /* white */
+    margin-top: 20px;
+    transition: transform 0.2s ease-in-out, border-color 0.3s ease-in-out;
+    }
+    
+    #geojson:hover {
+    transform: scale(1.05);
+    border-color: #2360b1; /* orange */
+    }
+
+    #code {
+        float: right;
+        object-fit: cover;
+        width: 15%;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        border: 5px solid #ffffff; /* white */
+        margin-top: 20px;
+        transition: transform 0.2s ease-in-out, border-color 0.3s ease-in-out;
+        }
+        
+        #code:hover {
+        transform: scale(1.05);
+        border-color: #2360b1; /* orange */
+        }
+
+#chloropeth{
+    object-fit: cover;
+    width: 60%;
+    height: auto;
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    border: 5px solid #ffffff; /* white */
+    margin-top: 20px;
+    transition: transform 0.2s ease-in-out, border-color 0.3s ease-in-out;
+    margin: 20px auto; /* center horizontally with margin auto */
+    display: block; /* set display to block to center properly */
+    }
+    
+    #chloropeth:hover {
+    transform: scale(1.05);
+    border-color: #2360b1; /* orange */
+}

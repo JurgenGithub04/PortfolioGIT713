@@ -1,0 +1,322 @@
+        a.download-link {
+          background-color: #ff0000;
+          color: #fff;
+          padding: 10px;
+          text-decoration: none;
+          font-weight: bold;
+          border-radius: 5px;
+        }
+        
+        a.download-link:hover {
+          background-color: #0056b3;
+        }
+        
+        h1 {
+          text-align: center;
+          font-size: 36px;
+        }
+        
+        #tiles-container {
+            display: flex;
+            overflow-x: auto;
+            width: 88%;
+            height: 270px; /* adjust the height as per your requirement */
+            margin: 0 auto; /* center align horizontally */
+            padding: 0 1rem; /* add some extra space around the tiles */
+            align-items: center;
+          }
+          
+
+          
+          .tile {
+            flex-shrink: 0;
+            width: 300px; /* adjust the width as per your requirement */
+            height: 200px; /* adjust the height as per your requirement */
+            margin-right: 1rem; /* add some space between tiles */
+            background-color: #f2f2f2;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            color: #444444;
+            cursor: pointer;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            
+          }
+
+.tile:hover {
+  background-color: #cccccc;
+  transform: rotate(3deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+        .link-container {
+          padding: 10px;
+          background-color: #FCA311;
+          color: white;
+          border-radius: 10px;
+          text-decoration: none;
+        }
+        
+        /* Remove the underline on hover */
+        .link-container:hover {
+          text-decoration: none;
+        }
+        
+        /* Apply different colors to each link */
+        #project-management {
+  background-image: url('https://i0.wp.com/theconstructor.org/wp-content/uploads/2015/01/role-of-a-project-manager.jpg?fit=673%2C437&ssl=1');
+  background-size: cover;
+  color: #000;
+  text-shadow: 2px 2px 4px #fff;
+  padding: 10px;
+}
+
+#gis-strategy {
+  background-image: url('https://www.insauga.com/wp-content/uploads/2022/03/What-Is-Geographic-Information-Systems-Featured.webp');
+  background-size: cover;
+  color: #000;
+  text-shadow: 2px 2px 4px #fff;
+  padding: 10px;
+}
+
+#data-collection {
+  background-image: url('https://ffind.com/app/uploads/2021/07/Data-collection-in-quantitative-research-4.jpg');
+  background-size: cover;
+  color: #000;
+  text-shadow: 2px 2px 4px #fff;
+  padding: 10px;
+}
+
+#web-map {
+  background-image: url('https://www.researchgate.net/publication/267706527/figure/fig1/AS:295671321120774@1447504944802/Availability-of-SRTM-data-in-Europe-The-area-hatched-in-grey-colour-is-north-of-60.png');
+  background-size: cover;
+  color: #000;
+  text-shadow: 2px 2px 4px #fff;
+  padding: 10px;
+}
+
+#software-dev {
+  background-image: url('https://www.netsolutions.com/insights/wp-content/uploads/2022/02/future-trends-in-software-development-in-2022.webp');
+  background-size: cover;
+  color: #000;
+  text-shadow: 2px 2px 4px #fff;
+  padding: 10px;
+}
+#geodesy {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5THkGG1qO4O-ckXF0VE3snezzSy8FieAaFg&usqp=CAU');
+    background-size: cover;
+    color: #000;
+    text-shadow: 2px 2px 4px #fff;
+    padding: 10px;
+  }
+  #pgis{
+    background-image: url('https://pgis.cta.int/images/543471_426927390671188_1776143542_n.jpg');
+    background-size: cover;
+    color: #000;
+    text-shadow: 2px 2px 4px #fff;
+    padding: 10px;
+  }
+
+        a {
+          text-decoration: none;
+        }
+        
+        #header {
+            position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 250px;
+          background-image: url('https://images.pexels.com/photos/1764702/pexels-photo-1764702.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        }
+        
+        img {
+          border: 5px solid #FFFFFF;
+          border-radius: 50%;
+          width: 200px;
+          height: 200px;
+          transition: transform 0.2s ease-in-out;
+        }
+        
+        img:hover {
+          transform: scale(1.2);
+        }
+        h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+#tiles-container a div {
+    position: relative;
+  }
+  #tiles-container a div span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px;
+  }
+  #header img {
+    object-fit: cover;
+  }
+  html {
+    background-color: rgb(227, 234, 240);
+  }
+
+  footer {
+    background-color:  rgb(161, 189, 212);
+    padding: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  footer a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  footer li {
+    margin-right: 1rem;
+  }
+  
+  footer img {
+    width: 30px;
+    height: 30px;
+    margin-right: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  footer img:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Download CV link */
+  .download-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #fff; /* change the border color to white */
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff; /* change the text color to white */
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+  }
+  
+  .download-link:hover {
+    background-color: #fff; /* change the background color to white */
+    color: #333; /* change the text color to black */
+  }
+    
+
+  .skills-section {
+    background-color: #f9f9f9;
+    padding: 50px;
+    margin-top: 50px;
+  }
+  
+  .section-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .section-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .personal-background {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .personal-background .image {
+    width: 40%;
+  }
+  
+  .personal-background .image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .personal-background .text {
+    width: 55%;
+  }
+  
+  .personal-background h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .personal-background p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  #mindmap {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin: 50px auto;
+    padding: 0;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out; 
+    }
+    
+    #mindmap:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
+    #mindMap {
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: justify;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    

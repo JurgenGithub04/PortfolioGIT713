@@ -1,0 +1,76 @@
+#previous-page-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+      
+#previous-page-btn:hover {
+    background-color: #3e8e41;
+}
+/* Set default styles for body and headings */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: auto;
+  padding: 0;
+  width: 70%;
+  background-color: #f2f2f2;
+  color: #333;
+  box-sizing: border-box;
+  background-color: #8a85bd;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Style the header with a background color, white text, and centered content */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Add some padding and a light gray background to the paragraphs */
+p {
+  margin: 0;
+  padding: 10px;
+  background-color: #f1f1f1;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Make the first paragraph stand out with a darker gray background */
+p:first-of-type {
+  background-color: #ddd;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Add some space between paragraphs */
+p + p {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+img {
+  float: right;
+  width: 20%;
+  border-radius: 50%;
+  object-fit: cover;
+}

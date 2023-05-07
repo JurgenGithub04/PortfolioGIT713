@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #f7f7f7;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+
+  main {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #555;
+  }
+  ul {
+    width: 95%;
+    list-style-type: square;
+    font-size: 22px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 0 auto; /* added this rule to center the container */
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul ul {
+    list-style-type: circle;
+    font-weight: 100;
+    font-size: 18px;
+    transform: perspective(600px) translateZ(-10px);
+    transition: transform 0.3s ease-in-out;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  ul ul li {
+    margin-bottom: 5px;
+  }
+  
+  ul ul:hover {
+    background-color: #f2f2f2;
+    cursor: pointer;
+    transform: perspective(600px) translateZ(30px);
+  }
+  img{
+    width: 60%;
+    height: auto;
+    float: right;
+    object-fit: cover;
+  }
+
+  #img2 {
+    position: relative;
+    z-index: 9999;
+    width: 40%;
+    height: auto;
+    float: right;
+    object-fit: cover;
+    margin-left: 7px;
+  }
+
+  #previous-page-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #previous-page-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+    
+

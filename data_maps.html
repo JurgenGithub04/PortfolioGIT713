@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Management</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <header>
+        <h1>Database Management and Data Wrangling</h1>
+    </header>
+    <section><img id="dbm" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/9c/e99a2cc09045faa2272c8aec469b95/Database-Administration.jpg?auto=format%2Ccompress&dpr=1" alt="DBMS">
+        <h2>Database Management</h2>
+        <p>A database is a structured repository of data for easy access, modification and analysis, while a spatial database is designed to store and manage spatial data with a geographic or locational component. Database design involves several key steps such as requirements gathering, conceptual design, logical design, normalization, physical design, implementation, and testing. Spatial database design requires specialized techniques and considerations, such as selecting an appropriate data model, choosing spatial indexing techniques, and considering coordinate systems and spatial data transformations. The database design process starts with data abstraction, which progresses from a high-level overview to more detailed levels of refinement, including a conceptual model, logical model, and physical model.</p>
+    </section>
+
+    <section>
+        <h2>Database Management for Botanical Garden Project</h2> <img id= "code" src="https://enterprise.arcgis.com/en/geoevent/10.8/ingest/GUID-5216B305-3F0C-4239-9773-212FF5F555AF-web.png" alt="GeoJSON">
+        <p>Managing the database for our Botanical Garden project was a crucial task, as it allowed us to retrieve essential information for creating a web map that met the client's requirements. Before starting the project, I made sure to review the geodatabase carefully and identify the features that we needed to retrieve, such as the garden boundaries and plant bed details. By doing this, I was able to extract only the relevant information from the database, which helped streamline the rest of the process.</p>
+        <p>Another critical aspect of the project was the species data. We received the data in an Excel file, and I had to create mock data for the species themes, which was an interesting challenge. I had to ensure that the data was structured in such a way that it allowed plants to have multiple themes. This was essential because it would enable the client to add more themes to the database later on, making it more flexible for future updates. Additionally, I made sure to clean the data by removing any null values and inaccurate coordinates. This ensured that the data was reliable and consistent, which was necessary for creating an accurate web map.</p>
+        <p><img id= "geojson" src="https://lh3.googleusercontent.com/1ICCzn3AmUA2_cBPIAFUffBOxnfHnwzgqEy3uHSnspFldMbLdrSFgm5KPS7lLqT_nfA" alt="GeoJSON">Once the data was cleaned and structured correctly, I converted it to GeoJSON format. This was a new experience for me, and I learned a lot about the structure of GeoJSON data and how it worked. It was crucial to understand the format to ensure that the data was compatible with the Leaflet map we were using.</p>
+        <p>Working in a team was an essential part of this project. Charles, one of my group members, helped us by writing the code to convert the features to GeoJSON. This was a massive help, as it saved us a lot of time and effort. Collaborating with others allowed us to combine our strengths and improve the overall quality of the project.</p>
+        <p>Finally, producing a web map that met the client's requirements effectively was a satisfying experience. The project taught me valuable skills in database management, data cleaning, and conversion to GeoJSON format. It also showed me the importance of working with others and how collaborating can enhance the final product's quality. Overall, it was a challenging but rewarding experience, and I learned a lot from it.</p>
+    </section>
+
+    <section>
+        <h2>Data Wrangling</h2>
+        <p>During this task, I had the opportunity to clean, analyze, and visualize data using Python and Arc GIS notebooks. It was a challenging yet fulfilling experience that allowed me to create different types of maps, including a choropleth map and a multiple attribute proportional symbol map, based on the data I worked with.<img id="arcimg" src="https://geomarvel.com/wp-content/uploads/2021/03/ArcGIS_Notebooks_220-1-1.jpg" alt="Arc Notebook"></p>
+        <p>Through the process of cleaning and preparing the data, I was able to develop my skills in Python, an essential tool for any data analyst. Grouping and manipulating the data allowed me to better understand the patterns that it showed.</p>
+        <p>Using Arc GIS notebooks was a new experience for me, but it allowed me to create features from the data and incorporate them into my maps. I was also able to develop my skills in visualizing spatial data, which is a valuable skill to have.</p>
+        <p>Creating a multiple attribute proportional symbol map required me to determine the rank of each political party's voter turnout. This involved working with different variables and ranking them accordingly, which was a valuable skill to develop.</p>
+        <p>Overall, this task has allowed me to develop my skills in data cleaning, data preparation, and data visualization. I now have a better understanding of working with municipal and ward data, which will be useful for future projects. The ability to work with data and visualize it in meaningful ways is an important skill to have in any field that involves data analysis, and I am grateful for the opportunity to have developed these skills further.</p>
+        <p>The map below is one of the maps I created for the Data Wrangling task:</p>
+        <p><img id= "chloropeth" src = "ChloroplethMap.jpg" alt="Chloroplrth map"></p>
+    </section>
+    <button id="previous-page-btn" onclick="location.href='index.html'">Go to Home Page</button>
+</body>
+</html>
